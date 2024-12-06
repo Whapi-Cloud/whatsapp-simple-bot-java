@@ -94,7 +94,6 @@ Your bot is now connected to the Whapi.Cloud API and can start receiving events 
 This is where the primary logic of the bot resides. It:
 - Filters incoming messages (only non-outgoing messages are processed).
 - Extracts the sender's phone number and the text content of the message.
-- Ignores non-text messages.
 - Uses a switch statement to respond with different messages or images based on the command received.
 
 ## Notes
